@@ -6,4 +6,3 @@ RUN tar xfz caddy_v1.0.0_linux_amd64.tar.gz -C /usr/bin/
 COPY Caddyfile /etc/
 COPY index.html /srv/
 CMD ["caddy", "-conf","/etc/Caddyfile"]
-EXPOSE "80"
