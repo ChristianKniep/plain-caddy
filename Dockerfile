@@ -7,3 +7,4 @@ RUN mkdir /public \
  && echo Huhu > /public/index.html
 COPY Caddyfile /etc/
 CMD ["caddy", "-conf","/etc/Caddyfile"]
+EXPOSE "80"
