@@ -1,3 +1,4 @@
+log stdout
 0.0.0.0:80 {
   root /srv
 }
